@@ -22,14 +22,19 @@ plt.appendChild(
 		},
 		x: {
 			grid: true,
-			label: "Cups of ☕️ consumed, per-day"
+			label: "Cups of coffee consumed, per-day"
 		},
 		y: {
 
 			label: null
 		},
 		marks: [
-			Plot.barX(rociCrewCoffeConsumption, { x: "cups", y: "member", sort: { y: "x", reverse: true} })
+			Plot.barX(
+				rociCrewCoffeConsumption,
+				{
+					x: "cups", y: "member", sort:
+						{ y: "x", reverse: true }
+				})
 		]
 	})
 );
