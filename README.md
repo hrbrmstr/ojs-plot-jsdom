@@ -102,7 +102,6 @@ plt.appendChild(
       label: "Cups of coffee consumed, per-day"
     },
     y: {
-
       label: null
     },
     marks: [
