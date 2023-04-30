@@ -39,4 +39,4 @@ plt.appendChild(
 	})
 );
 
-console.log(plt.innerHTML)
+console.log(plt.innerHTML.replace(/^<svg/, `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" `))

@@ -8,7 +8,7 @@ How to use server-side Observable Plot with just vanilla Node.js.
 npm run --silent plot > roci.svg
 ```
 
-![roci](roci.png)
+![roci](roci.svg)
 
 ```svg
 <svg class="plot-d6a7b5" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle" width="640" height="140" viewBox="0 0 640 140" style="background: none; color: rgb(74, 109, 136);"><style>.plot-d6a7b5 {
@@ -32,6 +32,8 @@ npm install -g svgo
 
 npm run --silent plot | svgo --pretty --indent 2 -i - -o roci-svgo.svg 
 ```
+
+![roci](roci-svgo.svg)
 
 ```svg
 <svg width="640" height="140" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" style="background:0 0;color:#4a6d88;display:block;height:intrinsic;max-width:100%" text-anchor="middle">
