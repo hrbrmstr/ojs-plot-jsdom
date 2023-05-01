@@ -12,7 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "@observablehq/plot": "^0.6.6",
-    "http": "^0.0.1-security",
     "jsdom": "^21.1.1"
   }
 }
