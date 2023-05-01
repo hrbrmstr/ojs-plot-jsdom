@@ -97,13 +97,14 @@ const plotStyle = plotSVG.querySelector("style")
 
 const darkModeCSS = `
 @media (prefers-color-scheme: dark) {
-  :root {
+  .${plotClass} {
     color: #ffffff;
   }
 }`
 
-plotStyle.textContent += darkModeCSS
+plotStyle.textContent = plotStyle.textContent.replace(`background:white`, `background:none`) + darkModeCSS
 
+plotSVG.setAttribute("role", "image")
 plotSVG.setAttribute("xmlns", "http://www.w3.org/2000/svg")
 plotSVG.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink")
 

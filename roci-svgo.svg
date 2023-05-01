@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="170" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" style="background:0 0;display:block;height:intrinsic;max-width:100%" text-anchor="middle" viewBox="0 -30 500 170">
   <style>
-    .plot-roci text{white-space:pre}@media (prefers-color-scheme:dark){:root{color:#fff}}
+    .plot-roci text{white-space:pre}@media (prefers-color-scheme:dark){.plot-roci{color:#fff}}
   </style>
   <text y="-16" aria-label="title" font-size="16" font-weight="700" text-anchor="start">Jitters On The Rocinante</text>
   <text aria-label="subtitle" font-size="12" text-anchor="start">How is it possible there is so much coffee in space in The Expanse universe?</text>
