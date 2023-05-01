@@ -1,33 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="140" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" style="background:0 0;color:#4a6d88;display:block;height:intrinsic;max-width:100%" text-anchor="middle">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="170" fill="currentColor" font-family="system-ui, sans-serif" font-size="10" style="background:0 0;display:block;height:intrinsic;max-width:100%" text-anchor="middle" viewBox="0 -30 500 170">
   <style>
-    .plot-d6a7b5 text{white-space:pre}
+    .plot-roci text{white-space:pre}@media (prefers-color-scheme:dark){:root{color:#fff}}
   </style>
-  <g fill="none" stroke="currentColor" aria-label="y-axis tick">
-    <path d="M50 33.5h-6M50 54.5h-6M50 75.5h-6M50 96.5h-6"/>
-  </g>
+  <text y="-16" aria-label="title" font-size="16" font-weight="700" text-anchor="start">Jitters On The Rocinante</text>
+  <text aria-label="subtitle" font-size="12" text-anchor="start">How is it possible there is so much coffee in space in The Expanse universe?</text>
   <g aria-label="y-axis tick label" text-anchor="end">
-    <text y=".32em" transform="translate(41 33.5)">Holden</text>
-    <text y=".32em" transform="translate(41 54.5)">Amos</text>
-    <text y=".32em" transform="translate(41 75.5)">Alex</text>
-    <text y=".32em" transform="translate(41 96.5)">Naomi</text>
+    <text y=".32em" transform="translate(41 23)">Holden</text>
+    <text y=".32em" transform="translate(41 47)">Amos</text>
+    <text y=".32em" transform="translate(41 71)">Alex</text>
+    <text y=".32em" transform="translate(41 95)">Naomi</text>
   </g>
   <g stroke="currentColor" stroke-opacity=".1" aria-label="x-grid">
-    <path d="M50 20v90M145 20v90M240 20v90M335 20v90M430 20v90M525 20v90M620 20v90"/>
-  </g>
-  <g fill="none" stroke="currentColor" aria-label="x-axis tick">
-    <path d="M50 110v6M145 110v6M240 110v6M335 110v6M430 110v6M525 110v6M620 110v6"/>
+    <path d="M50 8v102M121.667 8v102M193.333 8v102M265 8v102M336.667 8v102M408.333 8v102M480 8v102"/>
   </g>
   <g aria-label="x-axis tick label" font-variant="tabular-nums">
     <text y=".71em" transform="translate(50 119)">0</text>
-    <text y=".71em" transform="translate(145 119)">5</text>
-    <text y=".71em" transform="translate(240 119)">10</text>
-    <text y=".71em" transform="translate(335 119)">15</text>
-    <text y=".71em" transform="translate(430 119)">20</text>
-    <text y=".71em" transform="translate(525 119)">25</text>
-    <text y=".71em" transform="translate(620 119)">30</text>
+    <text y=".71em" transform="translate(121.667 119)">5</text>
+    <text y=".71em" transform="translate(193.333 119)">10</text>
+    <text y=".71em" transform="translate(265 119)">15</text>
+    <text y=".71em" transform="translate(336.667 119)">20</text>
+    <text y=".71em" transform="translate(408.333 119)">25</text>
+    <text y=".71em" transform="translate(480 119)">30</text>
   </g>
-  <text aria-label="x-axis label" text-anchor="end" transform="translate(637 137)">Cups of coffee consumed, per-day</text>
-  <g aria-label="bar">
-    <path d="M50 24h570v19H50zM50 45h95v19H50zM50 66h57v19H50zM50 87h19v19H50z"/>
+  <text aria-label="x-axis label" text-anchor="end" transform="translate(497 137)">Cups of coffee consumed, per-day</text>
+  <g fill="#4682b4" aria-label="bar">
+    <path d="M50 12h430v22H50zM50 36h71.667v22H50zM50 60h43v22H50zM50 84h14.333v22H50z"/>
   </g>
 </svg>
